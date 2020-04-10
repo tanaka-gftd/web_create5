@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>カレーは飲み物屋さん</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="normalize.css">
+    </head>
+
+    <body>    
+        <div class="main_container">
+            <div id="main_container_content">
+                <h1>自分の体はカレーで出来ている・・・</h1>
+                <h1>最早自分にとってカレーは飲み物・・・</h1>
+                <h1>そういった方たちのためのサイトです</h1>
+                <div id="main_container_content_downer">
+                    <img src="../product/picture/curry_tenin_man.png"  width="300">
+                    <div id="shop_top_click">
+                        <div>
+                            <form method="post" action="product_list.php">
+                                <input type="hidden" name="top" value="on">
+                                <input class="click" type="submit" value="入場">
+                            </form>
+                        </div>
+                        <div>
+                            <form method="post" action="login.php">
+                                <input type="hidden" name="top" value="on">
+                                <input class="click" type="submit" value="ログインする">
+                            </form>
+                        </div>
+                    </div>
+                    <img src="../product/picture/curry_tenin_woman.png" width="300">
+                </div>
+                <p>安いからたくさん食べられるよ～</p>
+            </div>
+        </div>
+    </body>
+</html>
